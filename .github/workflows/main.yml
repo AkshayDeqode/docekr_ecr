@@ -10,7 +10,7 @@ jobs:
       with:
          aws-access-key-id: ${{ secrets.TEST_AWS_ACCESS_KEY_ID }}
          aws-secret-access-key: ${{ secrets.TEST_AWS_SECRET_KEY_ID }}
-         aws-region: us-east-1
+         aws-region: ap-south-1
     - name: Install AWS CLI 
       run: |
          curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
